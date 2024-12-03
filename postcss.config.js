@@ -3,4 +3,7 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
+  rules: {
+    "@next/next/no-img-element": "off",
+  },
 };
