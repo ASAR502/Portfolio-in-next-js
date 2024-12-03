@@ -21,12 +21,6 @@ const Footer = () => {
       path: "about",
       color: "#FFC700",
     },
-
-    {
-      title: "Contact",
-      path: "mailto:aaquibm502@gmail@gmail.com?subject=Hey! lets work! Love your works!",
-      color: "#FF00B0",
-    },
   ];
   return (
     <>
@@ -96,6 +90,12 @@ const Footer = () => {
                     </Link>
                   );
                 })}
+                  <Link
+              href={`mailto:aaquibm502@gmail.com?subject=Hey! lets work! Love your works!`}
+              className="text-lg text-[var(--light-grey)] font-portfolio_regular"
+            >
+                Contact Me!
+            </Link>
                 <Link
                   href={`https://www.linkedin.com/in/aaquib-shahzada-6193421a7/`}
                   className="text-lg text-[var(--primary)] font-portfolio_regular"

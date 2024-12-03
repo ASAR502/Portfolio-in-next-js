@@ -25,7 +25,20 @@ const linklist = [
     color: "#FFC700",
   },
 ];
+const dropdownOptions = [
+  { label: "Leetcode", url: "https://leetcode.com/u/Aaquib_Shahzada/" },
+  { label: "Github", url: "https://github.com/ASAR502/" },
+  { label: "Twitter", url: "https://x.com/aaquib_shahzada" },
+  { label: "GeekforGeek", url: "https://www.geeksforgeeks.org/user/aaquibm502/" },
+];
 const Navbar = ({ type }) => {
+  const handleRedirect = (event) => {
+    const selectedUrl = event.target.value;
+    if (selectedUrl) {
+      window.open(selectedUrl, "_blank");
+    }
+  };
+
   const [menu, setMenu] = useState(false);
   return (
     <div
@@ -59,7 +72,6 @@ const Navbar = ({ type }) => {
               </Link>
             </h4>
           </div>
-
           <div className="flex flex-1 items-center justify-center">
             <div className="hidden lg:flex item-center justify-end flex-1 gap-12 md:gap-16">
               {linklist?.map((link, index) => {
@@ -82,7 +94,30 @@ const Navbar = ({ type }) => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-1 items-center justify-end gap-4">
+          <div className="flex flex-1 items-center justify-center">
+          <div   className="text-lg lg:text-xl hover:text-[var(--primary)] text-[var(--light-grey)] font-portfolio_regular">
+            <select
+              className="bg-transparent rounded px-3 py-2 text-white border-none focus:outline-none focus:ring-0"
+              onChange={handleRedirect}
+              defaultValue=""
+            >
+              <option value="" disabled>
+                Coding Profile
+              </option>
+
+              {dropdownOptions.map((option, index) => (
+                <option
+                className="bg-[var(--dropdown-option-bg)] text-white hover:bg-[var(--dropdown-option-hover)]" // Styling options
+                  key={index}
+                  value={option.url}
+                >
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          </div>
+          </div>
+          <div className="flex flex-1 items-center justify-end ">
             <Link
               style={{
                 transition: "all .6s",
@@ -92,6 +127,7 @@ const Navbar = ({ type }) => {
             >
               <Magnetic bgColor={"#eee"}>Contact Me!</Magnetic>
             </Link>
+
             <div
               onClick={() => setMenu(true)}
               className="cursor-pointer text-2xl text-white flex lg:hidden rounded-full items-center justify-center"

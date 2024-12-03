@@ -70,9 +70,10 @@ export const projectdata3 = [
   // ZyncLuxury
   {
     id: 4,
+    // ""https://github.com/edidiesky/ZyncLuxury"",
     website: "https://zyncluxury.vercel.app/",
     role: "Full-Stack Development",
-    github: "https://github.com/edidiesky/ZyncLuxury",
+    github: "https://github.com/ASAR502/",
     period: "2023",
     year: "2023",
     color: "#000",
@@ -127,58 +128,55 @@ export const projectdata3 = [
   },
   {
     id: 41,
-    website: "",
-    role: "Full-Stack Development",
-    github: "https://github.com/edidiesky/hirehalo",
-    period: "2024",
-    year: "2024",
+    website:  "https://github.com/ASAR502/Dashboard",
+    role: "Frontend-Development",
+    github: "https://github.com/ASAR502/Dashboard",
+    period: "2022",
+    year: "2022",
     color: "#fff",
     shortDescription:
-      "HireHalo is a platform which connects job seekers to wide range of remote job opportunites. I built Hirehalo with Go, NextJs,MongoDB, and Typescript.",
+      "Dashboard is a platform which connects job seekers to wide range of remote job opportunites. I built DashBaord with SyncFusion, ReactJs, and Javacript.",
     backGroundColor: "#318AFC",
     roleDescription:
-      "The role I took in developing involves developing it as a restaurant marketplace. I took pride in developing this application from the server side to the client side. I had to progress further by writing Frontend unit tests using Cypress.",
-    mainImage: "/images/hirehalo/home.jpeg",
-    mainTitle: "HireHalo",
+   " I built a dashboard project from scratch, which is a fully frontend application where users can analyze their data independently",
+       mainImage: "/images/hirehalo/home.png",
+    mainTitle: "DashBoard",
     overview: {
       color: "#bbacaf",
       Description: [
-        "HireHalo is a platform which connects job seekers to wide range of remote job opportunites. It also creates rooms for startups to pitch their products and create jobs for their potential candidates, and also find the right talent for the posted jobs. Hirehalo is all about connecting job seekers to their dream jobs and Opportunities. I built Hirehalo with Go, NextJs,MongoDB, and Typescript.",
+        "Built using React.js for the frontend with state management to handle expenses dynamically. The charts are implemented using libraries like SyncFusion or Recharts."
       ],
-      images: [""],
+      images: ["/images/hirehalo/home1.png"],
     },
     gallery: ["/images/zync/image_2.jpeg"],
     technologyUsed: [
-      "Typescript",
-      "Go",
-      "NextJS",
-      "Socket.io",
+      "Javascript",
+      "React redux ",
       "Tailwind",
       "MongoDb",
     ],
     features: {
       color: "#977f60",
       Description: [
-        "Hirehalo is all about connecting job seekers to their dream jobs and Opportunities.",
-        " It also creates rooms for startups to pitch their products and create jobs for their potential candidates, and also find the right talent for the posted jobs. ",
+        "Users can view detailed reports and analysis of their spending patterns over time, helping them make informed financial decisions. The feature includes visualizations like charts and graphs to present data in an easy-to-understand format.",
       ],
-      images: [""],
+      images: ["/images/hirehalo/home1.png"],
     },
     ui: {
       color: "#977f60",
       description:
-        "HireHalo is not left out from intuitive interfaces, responsive design, and efficient workflows enhance the overall user experience, making the platform easy and enjoyable to use.",
-      images: [""],
+        "This DashBoard is not This dashboard is not lacking in intuitive interfaces, responsive design, and efficient workflows, all of which enhance the overall user experience, making the platform easy and enjoyable to use out from intuitive interfaces, responsive design, and efficient workflows enhance the overall user experience, making the platform easy and enjoyable to use.",
+        images: ["/images/hirehalo/home1.png"],
     },
   },
   // twizzle
   {
     id: 4156,
-    website: "https://twizle.vercel.app/",
+    website: "",
     role: "Full-Stack Development",
-    github: "https://github.com/edidiesky/Twizle-Social-Platform",
-    period: "2021",
-    year: "2021",
+    github: "https://github.com/ASAR502/",
+    period: "2024",
+    year: "2024",
     color: "#000",
     shortDescription:
       "Developed a fully functional social service, Twizzle. Twizzle aims to simplify the act of communication between an admirable set of people with its intuitive UI and functionalities",
@@ -222,11 +220,11 @@ export const projectdata3 = [
   // tattoo
   {
     id: 43,
-    website: "https://tattooverse.vercel.app/",
+    website: "",
     role: "Frontend Development",
-    github: "https://github.com/edidiesky/TattooVerse",
-    period: "2020",
-    year: "2020",
+    github: "https://github.com/ASAR502/",
+    period: "2023",
+    year: "2023",
     color: "#000",
     shortDescription:
       "Developed a fully responsive and intuitive web product, TattooVerse. Created a platform that bridge the aspect of communications of tattoo artiste works to match the taste of their clients",

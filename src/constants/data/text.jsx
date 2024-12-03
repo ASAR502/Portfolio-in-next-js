@@ -34,8 +34,19 @@ export const skillslist = [
   {
     role: "Database Management",
     title: "Mysql",
+    icons: "/icons/mysql.png",
+  },
+  {
+    role: "Database Management",
+    title: "Prisma",
     icons: "/icons/prisma.png",
   },
+  {
+    role: "Database Management",
+    title: "Mongo DB",
+    icons: "/icons/mongo.png",
+  },
+  
   {
     role: "Developing wordclass apps",
     title: "JAVASCRIPT",
@@ -69,7 +80,7 @@ export const skillslist = [
   {
     role: "States Management",
     title: "REDUX",
-    icons: "/icons/express.png",
+    icons: "/icons/redux.png",
   },
   {
     role: "Styling frontend application",
@@ -84,7 +95,7 @@ export const skillslist = [
   {
     role: "Data Structres and Algorithem",
     title: "DSA",
-    icons: "/icons/tailwind.png",
+    icons: "/icons/dsa.png",
   },
 ];
 
