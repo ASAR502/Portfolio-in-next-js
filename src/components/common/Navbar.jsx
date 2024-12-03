@@ -28,6 +28,7 @@ const linklist = [
 const dropdownOptions = [
   { label: "Leetcode", url: "https://leetcode.com/u/Aaquib_Shahzada/" },
   { label: "Github", url: "https://github.com/ASAR502/" },
+  { label:"Linkdein", url:"https://www.linkedin.com/in/aaquib-shahzada-6193421a7/"},
   { label: "Twitter", url: "https://x.com/aaquib_shahzada" },
   { label: "GeekforGeek", url: "https://www.geeksforgeeks.org/user/aaquibm502/" },
 ];
@@ -85,12 +86,11 @@ const Navbar = ({ type }) => {
                   </Link>
                 );
               })}
-
               <Link
-                href={`https://www.linkedin.com/in/aaquib-shahzada-6193421a7/`}
+                href={"https://drive.google.com/file/d/1zn8e7uEKnBocGyfmv8vmS7-1-xkOUBvE/view"}
                 className="text-lg lg:text-xl text-[var(--primary)] font-portfolio_regular"
               >
-                Linkedin
+                Resume
               </Link>
             </div>
           </div>

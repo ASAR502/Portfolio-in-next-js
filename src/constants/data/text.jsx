@@ -8,7 +8,7 @@ export const aboutText1 =
 export const aboutText2 =
   "Hi there! I'm Aaquib, a passionate Software Developer with 4+ years of experience. I specialize in helping startups achieve their goals by building products and experiences that are intuitive, user-centric, and optimized for high conversion rates";
 export const ctatext5 =
-  "I am Aaquib Essien and I am a self-learned software developer, dedicated in creating appealing user-interfaces for industries since 2020";
+  "I am Aaquib Shahzada and I am a self-learned software developer, dedicated in creating appealing user-interfaces for industries since 2020";
 
 export const ctatext1 =
   "When I'm not building or exploring new web experiences, I'm probably playing games or watching football.";
