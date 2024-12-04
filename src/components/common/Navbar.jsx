@@ -87,7 +87,7 @@ const Navbar = ({ type }) => {
                 );
               })}
               <Link
-                href={"https://drive.google.com/file/d/1zn8e7uEKnBocGyfmv8vmS7-1-xkOUBvE/view"}
+                href={"https://drive.google.com/file/d/1n2i-DHPCVssYJYC4FPTqgGMmcnCpGlnQ/view"}
                 className="text-lg lg:text-xl text-[var(--primary)] font-portfolio_regular"
               >
                 Resume
