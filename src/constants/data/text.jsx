@@ -184,7 +184,7 @@ export const experienceList = [
     position: "Full-Stack Engineer",
     date: "April 2022 - Aug 2023 ",
     role: " Bridged the gap between frontend and backend, delivering a dynamic and personalized userexperience, tailored to each user and organization, resulting in a 25% increase in user satisfaction.",
-    location: "New Delhi",
+    location: "New Delhi 110002",
   }
 ];
 
