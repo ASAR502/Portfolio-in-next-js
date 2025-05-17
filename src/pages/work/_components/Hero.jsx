@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 import WorkList from "@/components/common/WorkList";
 export default function Hero() {
   const heroWords1 =
-    "I help startups and series A—D teams to establish a strong connection between their product and customers";
+    "I help startups and also  Work as Full Stack Developr  teams to establish a strong connection between their product and customers";
   const heroTextslideup1 = {
     initial: {
       opacity: 0,

@@ -259,7 +259,7 @@ function WorkFeatures() {
             >
               <img
                 src={image}
-                alt="imagecontainer for Aaquib's project"
+                alt="imagecontainer for Aaquib's  gallery project"
                 className="w-full object-cover"
               />
             </div>

@@ -19,12 +19,11 @@
 
 
 export const projectdata3 = [
-  // tastytrove
   {
     id: 41,
-    website: "https://appointmet.netlify.app/",
+    website: "https://app.sageturtle.in/therapist",
     role: "Full-Stack Development",
-    github: "https://github.com/ASAR502/Doctor-Appoint-frontend",
+    github: "",
     period: "2023",
     year: "2023",
     color: "#fff",
@@ -172,7 +171,7 @@ export const projectdata3 = [
   // twizzle
   {
     id: 4156,
-    website: "",
+    website:  "https://app.sageturtle.in/therapist",
     role: "Full-Stack Development",
     github: "https://github.com/ASAR502/",
     period: "2024",
@@ -217,46 +216,47 @@ export const projectdata3 = [
       images: ["/images/twizle/image_3.jpeg"],
     },
   },
-  // tattoo
+// Trainin Portal
   {
     id: 43,
-    website: "",
-    role: "Frontend Development",
+    website: "https://training-client-sage-turtle.netlify.app/",
+    role: "Full Stack Development",
     github: "https://github.com/ASAR502/",
-    period: "2023",
-    year: "2023",
+    period: "2024-25",
+    year: "2024",
     color: "#000",
     shortDescription:
-      "Developed a fully responsive and intuitive web product, TattooVerse. Created a platform that bridge the aspect of communications of tattoo artiste works to match the taste of their clients",
+      "Developed a fully responsive and intuitive Training Portal for students and teachers, facilitating seamless communication, assignment submission, and progress tracking.",
     backGroundColor: "#B3FFCB",
     roleDescription:
-      "The role I took in developing TattooVerse involves developing it as a home of resort and relaxation. I took pride in developing the application from the server side to the client side. I had to progress further by writing server side unit tests using Jest.",
+      "Built this project from the ground up, handling both frontend and backend in Node.js. Deployed the backend on AWS EC2 using Docker—created the Docker image, pushed it to ECR, and ran it on EC2 instances.",
     mainImage: "/images/tattoo/image_1.jpeg",
-    mainTitle: "TattooVerse",
+    mainTitle: "Training Portal",
     overview: {
       color: "#bbacaf",
       Description: [
-        "TattooVerse is a home of resort and relaxation; platform which offers a modern and interactive experience akin to luxury. I Built it with cutting-edge technologies, it provides users with a seamless environment to connect, engage, and share thoughts in real-time. From user authentication to real-time chat systems",
+        "The Training Portal redefines resource accessibility by enabling students and teachers to share materials, monitor progress, and exchange feedback seamlessly. A built-in chatbot further enhances student engagement and support."
       ],
-      images: ["/images/tattoo/image_2.jpeg"],
+      images: ["/images/tattoo/image_4.jpeg"],
     },
-    gallery: ["/images/zync/image_2.jpeg"],
+    gallery: ["/images/zync/image_1.jpeg"],
     technologyUsed: ["NextJS", "Tailwind Css"],
     features: {
       color: "#977f60",
       Description: [
-        "TattooVerse platform redefines the concept of resort and relaxation, offering users a dynamic and engaging environment to connect and communicate. With features such as user authentication, a seamless booking system, home management by ADMIN",
-        "TattooVerse allows Users to see various Home listing, carry out a seamless payment using fluterr-wave payment system, sharing their thoughts and engaging with content in a dynamic and interactive manner.",
+        "Resource Management: Teachers can create courses, upload videos, and organize batches so students access the right content at the right time.",
+        "Progress & Feedback: Students submit assignments, receive actionable feedback, and iterate to improve learning outcomes."
       ],
-      images: ["/images/tattoo/image_2.jpeg", "/images/tattoo/image_3.jpeg"],
+      images: ["/images/tattoo/image_4.jpeg", "/images/tattoo/image_1.jpeg"],
     },
     ui: {
       color: "#977f60",
       description:
-        "TattooVerse is not left out from intuitive interfaces, responsive design, and efficient workflows enhance the overall user experience, making the platform easy and enjoyable to use.",
-      images: ["/images/tattoo/image_4.jpeg"],
+        "The UI combines clean, responsive design with intuitive workflows—ensuring an efficient, user-friendly experience for both students and teachers.",
+      images: ["/images/tattoo/image_3.jpeg"],
     },
   },
+  
 
   // Car
   {
